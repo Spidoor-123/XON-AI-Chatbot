@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       z-index:2147483647; 
       font-family:'Poppins', sans-serif;
       --xon-primary: ${primaryColor};
-      --xon-primary-gradient: linear-gradient(135deg, var(--xon-primary), #5b8aff);
+      --xon-primary-gradient: linear-gradient(180deg, var(--xon-primary) 0%, #4284fb 100%);
     ">
       <button id="xon-chat-btn" style="background: var(--xon-primary-gradient); color:#fff; border:none; border-radius:50%; width:60px; height:60px; font-size:24px; cursor:pointer; box-shadow:0 4px 15px rgba(63, 113, 243, 0.4); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; outline: none;">
         <i class="fas fa-robot"></i>
